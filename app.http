@@ -1,0 +1,16 @@
+GET http://localhost:3000/recpies/
+###
+
+POST http://localhost:3000/recpies/
+Content-Type: application/json
+
+{
+    "Title": "Biryani",
+    "Ingredients": ["tomatoes", "Chicken", "garlic", "olive oil", "WhiteRice"],
+    "Instructions": "Cook it in a low flame",
+    "Category": "Lunch",
+    "CookingTime": "1Hour"
+}
+###
+
+DELETE http://localhost:3000/recpies/:id/
